@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeeditOnSubmitExample</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //When form is submitted alert should display a message.
+	alert('Thank you for submitting the record.');
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 20:35:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be4afdf94776711025dcb3ee436d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeeditOnSubmitExample</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt " source="x_736469_needit">7257530d4772311025dcb3ee436d43db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt ">7257530d4772311025dcb3ee436d43db</sys_scope>
+        <sys_update_name>sys_script_client_be4afdf94776711025dcb3ee436d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 20:35:23</sys_updated_on>
+        <table>x_736469_needit_needit</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt ">7257530d4772311025dcb3ee436d43db</application>
+        <file_path/>
+        <instance_id>fe8c250bdb252d1837a0c59705961950</instance_id>
+        <instance_name>dev165694</instance_name>
+        <name>sys_script_client_be4afdf94776711025dcb3ee436d430b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeeditOnSubmitExample&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //When form is submitted alert should display a message.
+	alert('Thank you for submitting the record.');
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 20:35:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;be4afdf94776711025dcb3ee436d430b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeeditOnSubmitExample&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt " source="x_736469_needit"&gt;7257530d4772311025dcb3ee436d43db&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt "&gt;7257530d4772311025dcb3ee436d43db&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_be4afdf94776711025dcb3ee436d430b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 20:35:23&lt;/sys_updated_on&gt;&lt;table&gt;x_736469_needit_needit&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1148552427</payload_hash>
+        <record_name>NeeditOnSubmitExample</record_name>
+        <reverted_from/>
+        <source>62fee0e94772311025dcb3ee436d4318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 20:35:23</sys_created_on>
+        <sys_id>e3daf53d4776711025dcb3ee436d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1ccb20510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 20:35:23</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>abdaf575f9767110e4942a81ddd874c0</update_guid>
+        <update_guid_history>abdaf575f9767110e4942a81ddd874c0:-1148552427</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 20:37:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>456398ea24854ebbb8eb7c9938bdc2d1</sys_id>
+        <sys_metadata>be4afdf94776711025dcb3ee436d430b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeeditOnSubmitExample</sys_name>
+        <sys_package display_value="NeedIt " source="x_736469_needit">7257530d4772311025dcb3ee436d43db</sys_package>
+        <sys_parent display_value="Needit">07e957cd4772311025dcb3ee436d43f0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt ">7257530d4772311025dcb3ee436d43db</sys_scope>
+        <sys_scope_delete display_value="">98798f8d4ce944bca125db1850287924</sys_scope_delete>
+        <sys_update_name>sys_script_client_be4afdf94776711025dcb3ee436d430b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_be4afdf94776711025dcb3ee436d430b">e3daf53d4776711025dcb3ee436d43ca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 20:37:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="07e957cd4772311025dcb3ee436d43f0" extends="task" label="Needit" max_length="40" name="x_736469_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
@@ -9,8 +10,10 @@
                 <element inactive_on_update="false" label="Your department choice" sequence="3" value="your _choice"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="leagal1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
+                <element inactive_on_update="false" label="Other" value="other"/>
                 <element inactive_on_update="false" label="Human resource1" sequence="0" value="hr1"/>
                 <element inactive_on_update="false" label="Human resource2" sequence="1" value="hr2"/>
                 <element inactive_on_update="false" label="Facilities1" sequence="2" value="facilities1"/>
